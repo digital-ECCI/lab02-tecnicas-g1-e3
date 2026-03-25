@@ -27,9 +27,9 @@ Indice:
 
 Para la realizacion de este laboratorio empezamos con el sumador, para realiazar el sumador, primero, en un archivo hice como la descripcion de hardware de la logica de la suma, o dicho en otras palabras mi modulo sumador, despues en otro archivo lo volvi un sumador de 4 bits, instanciando cada modulo sumador 4 veces, lo importante se da en que el acarreo de salida del primer sumador se conecta con el acareo de entrada del siguiente sumador de un bit y asi sucesivamente, entonces como lo dice el ejercicio cada sumador produce su respectiva salida (So) y su acarreo de salida que se conecta al acrreo de entrada de la siguiente instancia (Co).
 
-* RESTADOR
+* SUMADOR/RESTADOR
 
-Para el restador se manejo la misma logica pero cambia el codigo principal pero siguiendo una misma estructura
+Para el restador se manejo la misma logica pero cambia el codigo principal pero siguiendo una misma estructura, entonces lo que hace este codigo por decirlo de alguna forma mediande un swich(SEL), decide si sumar o restar numeros de 4 bits, entonces cuando SEL es 0 realixara una suma normal y cuando SEL sea 1 realizara una resta en su complemento A DOS despues pues es basicamente lo del modulo anterior 4 modulos instanciados en cascada conectando el acarreo de salida de un modulo con el acarreo de entrada del siguiente.
 
 #### 1.2 Diagramas
 
