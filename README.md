@@ -34,6 +34,7 @@ Para el restador se manejo la misma logica pero cambia el codigo principal pero 
 #### 1.2 Diagramas
 
 
+
 ## Simulaciones 
 
 ### 1. Simulación del sumador/restador
