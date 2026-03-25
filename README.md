@@ -32,7 +32,7 @@ Para la realizacion de este laboratorio empezamos con el sumador, para realiazar
 Para el restador se manejo la misma logica pero cambia el codigo principal pero siguiendo una misma estructura, entonces lo que hace este codigo por decirlo de alguna forma mediande un swich(SEL), decide si sumar o restar numeros de 4 bits, entonces cuando SEL es 0 realixara una suma normal y cuando SEL sea 1 realizara una resta en su complemento A DOS despues pues es basicamente lo del modulo anterior 4 modulos instanciados en cascada conectando el acarreo de salida de un modulo con el acarreo de entrada del siguiente.
 
 #### 1.2 Diagramas
-
+<img src ="Diagrama Sumador.drawio.png">
 
 
 ## Simulaciones 
