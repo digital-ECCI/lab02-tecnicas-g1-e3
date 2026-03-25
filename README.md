@@ -4,6 +4,9 @@
 
 # Integrantes
 
+* [JAIRO ANDRES SOLANO RODRIGUEZ](https://github.com/AndresRdgz06)
+* [DANIELA MUÑOS PAEZ]()
+
 
 # Informe
 
