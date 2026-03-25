@@ -25,6 +25,12 @@ Indice:
 
 #### 1.1 Descripción
 
+Para la realizacion de este laboratorio empezamos con el sumador, para realiazar el sumador, primero, en un archivo hice como la descripcion de hardware de la logica de la suma, o dicho en otras palabras mi modulo sumador, despues en otro archivo lo volvi un sumador de 4 bits, instanciando cada modulo sumador 4 veces, lo importante se da en que el acarreo de salida del primer sumador se conecta con el acareo de entrada del siguiente sumador de un bit y asi sucesivamente, entonces como lo dice el ejercicio cada sumador produce su respectiva salida (So) y su acarreo de salida que se conecta al acrreo de entrada de la siguiente instancia (Co).
+
+* RESTADOR
+
+Para el restador se manejo la misma logica pero cambia el codigo principal pero siguiendo una misma estructura
+
 #### 1.2 Diagramas
 
 
