@@ -45,8 +45,10 @@ Para el restador se manejo la misma logica pero cambia el codigo principal pero 
 
 ### 1. Simulación del sumador/restador
 
-#### 1.1 Descripción
+Para la silulacion adjunto un video de youtube ya que por imagenes no se logra apreciar bien  https://youtu.be/RhADKuQYeTI
 
+#### 1.1 Descripción
+En la simulacion se logra apreciar que en cada caso segun SEL sea suma o resta se nota su correcto funcionamiento. que quiere decir esto que cuando Sel es 0 va a sumar pero cuando es 1 va a realizar la funcion de restar.
 #### 1.2 Diagrama
 
 
@@ -54,6 +56,6 @@ Para el restador se manejo la misma logica pero cambia el codigo principal pero 
 
 
 ## Conclusiones
-
+En conclusion este fue un laboratorio un poco retador, especialmente para nuestro grupo la parte que se dificulto mas fue hacer la secuencia de uno detras del otro dicho en otras palabras, ya que aunque no entendemos bien porque sucedia pero simplemente los resultados no eran correctos, se volvio a realizar el codigo, ya estba funcionando pero al hacer la simulacion o el TB tubimos otro problema y era el de los casos ya queb solo lo hicimos con 5 ya que no conociamos el bloque for, despues de la explicacion del docente quedo un poco mas claro este tema, se pudo evidenciar el correcto funcionamiento en la simulacion y esto nos ayuda a que la implementacion en la FPGA sea mas facil
 
 ## Referencias
