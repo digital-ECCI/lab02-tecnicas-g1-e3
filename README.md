@@ -56,7 +56,7 @@ En la simulacion se logra apreciar que en cada caso segun SEL sea suma o resta s
 
 
 ## Conclusiones
-En conclusion este fue un laboratorio un poco retador, especialmente para nuestro grupo la parte que se dificulto mas fue hacer la secuencia de uno detras del otro dicho en otras palabras, ya que aunque no entendemos bien porque sucedia pero simplemente los resultados no eran correctos, se volvio a realizar el codigo, ya estba funcionando pero al hacer la simulacion o el TB tubimos otro problema y era el de los casos ya queb solo lo hicimos con 5 ya que no conociamos el bloque for, despues de la explicacion del docente quedo un poco mas claro este tema, se pudo evidenciar el correcto funcionamiento en la simulacion y esto nos ayuda a que la implementacion en la FPGA sea mas facil
+En conclusion este fue un laboratorio un poco retador, especialmente para nuestro grupo la parte que se dificulto mas fue hacer la secuencia de uno detras del otro dicho en otras palabras, ya que aunque no entendemos bien porque sucedia pero simplemente los resultados no eran correctos, se volvio a realizar el codigo, ya estba funcionando pero al hacer la simulacion o el TB tubimos otro problema y era el de los casos ya queb solo lo hicimos con 5 ya que no conociamos el bloque for, despues de la explicacion del docente quedo un poco mas claro este tema, se pudo evidenciar el correcto funcionamiento en la simulacion y esto nos ayuda a que la implementacion en la FPGA sea mas facil.
 
 ## Referencias
 
