@@ -1,6 +1,11 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/suLFM-MT)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23278821&assignment_repo_type=AssignmentRepo)
 # Lab02 - Sumador/Restador de 4 bits
 
 # Integrantes
+
+* [JAIRO ANDRES SOLANO RODRIGUEZ](https://github.com/AndresRdgz06)
+* [DANIELA MUÑOS PAEZ]()
 
 
 # Informe
@@ -20,15 +25,30 @@ Indice:
 
 #### 1.1 Descripción
 
+Para la realizacion de este laboratorio empezamos con el sumador, para realiazar el sumador, primero, en un archivo hice como la descripcion de hardware de la logica de la suma, o dicho en otras palabras mi modulo sumador, despues en otro archivo lo volvi un sumador de 4 bits, instanciando cada modulo sumador 4 veces, lo importante se da en que el acarreo de salida del primer sumador se conecta con el acareo de entrada del siguiente sumador de un bit y asi sucesivamente, entonces como lo dice el ejercicio cada sumador produce su respectiva salida (So) y su acarreo de salida que se conecta al acrreo de entrada de la siguiente instancia (Co).
+
+* SUMADOR/RESTADOR
+
+Para el restador se manejo la misma logica pero cambia el codigo principal pero siguiendo una misma estructura, entonces lo que hace este codigo por decirlo de alguna forma mediande un swich (SEL), decide si sumar o restar numeros de 4 bits, entonces cuando SEL es 0 realixara una suma normal y cuando SEL sea 1 realizara una resta en su complemento A DOS despues pues es basicamente lo del modulo anterior 4 modulos instanciados en cascada conectando el acarreo de salida de un modulo con el acarreo de entrada del siguiente.
+
 #### 1.2 Diagramas
+
+* DIAGRAMA SUMADOR
+
+<img src ="Diagrama Sumador.drawio.png">
+
+* DIAGRAMA SUMADOR / RESTADOR
+<img src ="Restador.drawio.png" >
 
 
 ## Simulaciones 
 
 ### 1. Simulación del sumador/restador
 
-#### 1.1 Descripción
+Para la silulacion adjunto un video de youtube ya que por imagenes no se logra apreciar bien  https://youtu.be/RhADKuQYeTI
 
+#### 1.1 Descripción
+En la simulacion se logra apreciar que en cada caso segun SEL sea suma o resta se nota su correcto funcionamiento. que quiere decir esto que cuando Sel es 0 va a sumar pero cuando es 1 va a realizar la funcion de restar.
 #### 1.2 Diagrama
 
 
@@ -36,6 +56,18 @@ Indice:
 
 
 ## Conclusiones
-
+En conclusion este fue un laboratorio un poco retador, especialmente para nuestro grupo la parte que se dificulto mas fue hacer la secuencia de uno detras del otro dicho en otras palabras, ya que aunque no entendemos bien porque sucedia pero simplemente los resultados no eran correctos, se volvio a realizar el codigo, ya estba funcionando pero al hacer la simulacion o el TB tubimos otro problema y era el de los casos ya queb solo lo hicimos con 5 ya que no conociamos el bloque for, despues de la explicacion del docente quedo un poco mas claro este tema, se pudo evidenciar el correcto funcionamiento en la simulacion y esto nos ayuda a que la implementacion en la FPGA sea mas facil.
 
 ## Referencias
+
+Codigo base que contiene el modulo de restador o dicho en otras palabras la logica del sumador/restador
+
+[restador.v](./restador.v)
+
+Codigo que implementa el primero para hacer el restador secuencial
+
+[restador_4_bits.v](./restador_4_bits.v)
+
+Codigo del testbench
+
+[restador_tb.v](./restador_tb.v)
